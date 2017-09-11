@@ -1,0 +1,1 @@
+P4PORT=rsh:p4d -r p4root -L p4log -vserver=3 -i

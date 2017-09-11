@@ -1,0 +1,11 @@
+@nx@ 2 1430518521 @38@ 2 0 0 0 0 @/Users/stephen.moon/p4/smoon/scripts/py_progs/COMMIT@ @journal@ @@ @@ @@ 
+@vv@ 1 @db.counters@ @journal@ @1@ 
+@pv@ 1 @db.counters@ @lastCheckpointAction@ @1430518521 (2015/05/01 15:15:21 -0700 PDT) checkpoint completed@ 
+@ex@ 22152 1430518521
+@pv@ 1 @db.depot@ @SMOON-01_0@ 0 @@ @SMOON-01_0/...@ 
+@ex@ 22276 1430518579
+@pv@ 6 @db.domain@ @SMOON-01_0@ 100 @@ @@ @@ @@ @@ 1430518579 1430518579 0 @SMOON-01_0 desc
+@ @@ @@ 0 
+@ex@ 22276 1430518579
+@nx@ 8 1430530546 @38@ 0 0 0 0 0 @65202@ @@ @@ @@ @@ 
+@ex@ 22078 1430530546

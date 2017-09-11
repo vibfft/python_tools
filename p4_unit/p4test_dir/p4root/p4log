@@ -1,0 +1,140 @@
+Perforce server info:
+	2015/09/25 19:34:51 pid 1898 smoon@SMOON-01 unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-user -o'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1898 completed .002s 0+0us 0+0io 0+0net 3141632k 32pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1900 smoon@SMOON-01 unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-user -f -i'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1900 completed .001s 0+0us 0+0io 1+1net 2711552k 6pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1902 stephen.moon@SMOON-01 unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-client -o'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1902 completed .001s 0+0us 0+0io 0+0net 2719744k 12pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1904 stephen.moon@SMOON-01 unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-client -i'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1904 completed .000s 0+0us 0+0io 1+1net 2793472k 7pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1906 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-add test_ws/test_one.txt'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1906 completed .001s 0+0us 0+0io 1+1net 2904064k 19pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1908 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-submit -d test_one_branched'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1908 completed .001s 0+0us 0+1io 0+0net 3026944k 19pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1908 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-submit -d test_one_branched'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1908 completed .002s 0+1us 0+2io 2+2net 3375104k 28pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1908 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'dm-CommitSubmit'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1908 completed .001s 0+0us 0+0io 1+1net 3502080k 5pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1910 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-populate test_ws/test_one.txt test_ws/test_two.txt'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1910 completed .001s 0+0us 0+0io 0+0net 2949120k 7pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1912 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-revert //...'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1912 completed .000s 0+0us 0+0io 0+0net 2777088k 5pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1914 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-sync //...#none'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1914 compute end .000s 0+0us 0+0io 0+0net 2822144k 6pf 
+Perforce server info:
+	Server network estimates: files added/updated/deleted=0/0/1, bytes added/updated=0/0
+Perforce server info:
+	2015/09/25 19:34:51 pid 1914 completed .000s 0+0us 0+0io 1+1net 2879488k 8pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1916 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-client -d test_ws'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1916 completed .000s 0+0us 0+0io 0+0net 2859008k 3pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1918 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-user -d smoon'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1918 completed .000s 0+0us 0+0io 0+0net 2801664k 0pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1920 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-obliterate -y //...'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1920 completed .001s 0+0us 0+0io 0+0net 3067904k 9pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1922 smoon@SMOON-01 unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-user -o'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1922 completed .000s 0+0us 0+0io 0+0net 2662400k 0pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1924 smoon@SMOON-01 unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-user -f -i'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1924 completed .000s 0+0us 0+0io 1+1net 2707456k 0pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1926 stephen.moon@SMOON-01 unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-client -o'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1926 completed .000s 0+0us 0+0io 0+0net 2703360k 0pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1928 stephen.moon@SMOON-01 unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-client -i'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1928 completed .000s 0+0us 0+0io 1+1net 2818048k 0pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1930 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-add test_ws/test_one.txt'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1930 completed .000s 0+0us 0+0io 1+1net 2961408k 0pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1932 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-submit -d test_one_submitted'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1932 completed .000s 0+0us 0+0io 0+0net 2977792k 0pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1932 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-submit -d test_one_submitted'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1932 completed .001s 0+0us 0+1io 2+2net 3297280k 0pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1932 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'dm-CommitSubmit'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1932 completed .000s 0+0us 0+0io 1+1net 3432448k 0pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1934 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-copy test_ws/test_one.txt test_ws/test_two.txt'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1934 completed .001s 0+0us 0+0io 1+1net 3125248k 18pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1936 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-submit -d test_one_copied'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1936 completed .000s 0+0us 0+0io 0+0net 2981888k 0pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1936 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-submit -d test_one_copied'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1936 completed .000s 0+0us 0+0io 1+1net 3248128k 0pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1936 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'dm-CommitSubmit'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1936 completed .000s 0+0us 0+0io 1+1net 3444736k 0pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1938 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-edit test_ws/test_one.txt test_ws/test_two.txt'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1938 completed .000s 0+0us 0+0io 1+1net 2838528k 0pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1940 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-diff test_ws/test_one.txt test_ws/test_two.txt'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1940 completed .001s 0+0us 0+0io 1+1net 2748416k 3pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1942 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-revert //...'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1942 completed .000s 0+0us 0+0io 2+2net 2813952k 2pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1944 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-sync //...#none'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1944 compute end .000s 0+0us 0+0io 0+0net 2793472k 0pf 
+Perforce server info:
+	Server network estimates: files added/updated/deleted=0/0/2, bytes added/updated=0/0
+Perforce server info:
+	2015/09/25 19:34:51 pid 1944 completed .000s 0+0us 0+0io 1+1net 2846720k 0pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1946 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-client -d test_ws'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1946 completed .000s 0+0us 0+0io 0+0net 2859008k 0pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1948 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-user -d smoon'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1948 completed .000s 0+0us 0+0io 0+0net 2732032k 0pf 
+Perforce server info:
+	2015/09/25 19:34:51 pid 1950 smoon@test_ws unknown [p4/2014.2/MACOSX105X86_64/1045032] 'user-obliterate -y //...'
+Perforce server info:
+	2015/09/25 19:34:51 pid 1950 completed .001s 0+0us 0+0io 0+0net 3026944k 0pf 

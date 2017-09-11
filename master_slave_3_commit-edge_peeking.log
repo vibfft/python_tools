@@ -1,0 +1,4 @@
+05-01 12:46 p4debug      DEBUG    ['p4d', '-V']
+05-01 12:46 p4debug      DEBUG     PLATFORM: DARWIN90X86_64 CODELINE: 2014.2 RELEASE: 1045032
+05-01 12:46 p4debug      DEBUG    2014 is an integer
+05-01 12:46 p4debug      DEBUG    2 is an integer

@@ -1,0 +1,263 @@
+@pv@ 1 @db.counters@ @upgrade@ @1@ 
+@ex@ 1898 1443234891
+@rv@ 1 @db.counters@ @upgrade@ @2@ 
+@ex@ 1898 1443234891
+@rv@ 1 @db.counters@ @upgrade@ @3@ 
+@ex@ 1898 1443234891
+@rv@ 1 @db.counters@ @upgrade@ @4@ 
+@ex@ 1898 1443234891
+@rv@ 1 @db.counters@ @upgrade@ @5@ 
+@pv@ 1 @db.depot@ @depot@ 0 @@ @depot/...@ 
+@pv@ 6 @db.domain@ @depot@ 100 @@ @@ @@ @@ @@ 1443234891 1443234891 0 @Default depot@ @@ @@ 0 
+@ex@ 1898 1443234891
+@rv@ 1 @db.counters@ @upgrade@ @6@ 
+@ex@ 1898 1443234891
+@rv@ 1 @db.counters@ @upgrade@ @7@ 
+@ex@ 1898 1443234891
+@rv@ 1 @db.counters@ @upgrade@ @8@ 
+@ex@ 1898 1443234891
+@rv@ 1 @db.counters@ @upgrade@ @9@ 
+@rv@ 1 @db.counters@ @upgrade@ @10@ 
+@ex@ 1898 1443234891
+@rv@ 1 @db.counters@ @upgrade@ @11@ 
+@rv@ 1 @db.counters@ @upgrade@ @12@ 
+@ex@ 1898 1443234891
+@rv@ 1 @db.counters@ @upgrade@ @13@ 
+@rv@ 1 @db.counters@ @upgrade@ @14@ 
+@rv@ 1 @db.counters@ @upgrade@ @15@ 
+@ex@ 1898 1443234891
+@rv@ 1 @db.counters@ @upgrade@ @16@ 
+@ex@ 1898 1443234891
+@rv@ 1 @db.counters@ @upgrade@ @17@ 
+@rv@ 1 @db.counters@ @upgrade@ @18@ 
+@ex@ 1898 1443234891
+@rv@ 1 @db.counters@ @upgrade@ @19@ 
+@ex@ 1898 1443234891
+@rv@ 1 @db.counters@ @upgrade@ @20@ 
+@rv@ 1 @db.counters@ @upgrade@ @21@ 
+@rv@ 1 @db.counters@ @upgrade@ @22@ 
+@rv@ 1 @db.counters@ @upgrade@ @23@ 
+@ex@ 1898 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1898 1443234891
+@pv@ 7 @db.user@ @smoon@ @smoon@@SMOON-01@ @@ 1443234891 1443234891 @smoon@ @@ 0 @@ 0 0 0 0 0 0 
+@ex@ 1898 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1900 1443234891
+@rv@ 7 @db.user@ @smoon@ @smoon@@smoon@ @@ 1443234891 1443234891 @smoon@ @@ 0 @@ 0 0 0 0 0 0 
+@ex@ 1900 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1902 1443234891
+@pv@ 7 @db.user@ @stephen.moon@ @stephen.moon@@SMOON-01@ @@ 1443234891 1443234891 @stephen.moon@ @@ 0 @@ 0 0 0 0 0 0 
+@ex@ 1902 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1904 1443234891
+@pv@ 1 @db.view@ @test_ws@ 0 0 @//test_ws/...@ @//depot/...@ 
+@ex@ 1904 1443234891
+@pv@ 6 @db.domain@ @test_ws@ 99 @SMOON-01@ @/Users/stephen.moon/p4/smoon/scripts/py_progs/p4_unit/p4test_dir/test_ws@ @@ @@ @smoon@ 1443234891 1443234891 0 @Client test_ws created by smoon
+@ @@ @@ 0 
+@ex@ 1904 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1906 1443234891
+@pv@ 10 @db.working@ @//test_ws/test_one.txt@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 1 0 0 0 0 0 0 00000000000000000000000000000000 -1 0 0 0 @@ 0 
+@pv@ 2 @db.locks@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 0 0 
+@ex@ 1906 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1908 1443234891
+@pv@ 1 @db.counters@ @change@ @1@ 
+@pv@ 0 @db.desc@ 1 @test_one_branched@ 
+@pv@ 2 @db.change@ 1 1 @test_ws@ @smoon@ 1443234891 0 @test_one_branched@ @@ 
+@pv@ 2 @db.changex@ 1 1 @test_ws@ @smoon@ 1443234891 0 @test_one_branched@ @@ 
+@rv@ 10 @db.working@ @//test_ws/test_one.txt@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 1 0 0 0 1 0 0 00000000000000000000000000000000 -1 0 0 0 @@ 0 
+@rv@ 2 @db.locks@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 0 1 
+@ex@ 1908 1443234891
+@rv@ 10 @db.working@ @//test_ws/test_one.txt@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 1 0 0 0 1 0 1 00000000000000000000000000000000 -1 0 0 0 @@ 0 
+@rv@ 2 @db.locks@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 1 1 
+@ex@ 1908 1443234891
+@rv@ 10 @db.working@ @//test_ws/test_one.txt@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 1 0 0 0 1 1443234891 1 122D46B94B8F4A45C294ACEFB0157C82 197 0 0 0 @@ 0 
+@rv@ 2 @db.locks@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 1 1 
+@ex@ 1908 1443234891
+@dv@ 2 @db.changex@ 1 1 @test_ws@ @smoon@ 1443234891 1 @test_one_branched@ @//depot/*@ 
+@rv@ 2 @db.change@ 1 1 @test_ws@ @smoon@ 1443234891 1 @test_one_branched@ @//depot/*@ 
+@pv@ 9 @db.rev@ @//depot/test_one.txt@ 1 0 0 1 1443234891 1443234891 122D46B94B8F4A45C294ACEFB0157C82 197 0 0 @//depot/test_one.txt@ @1.1@ 0 
+@pv@ 9 @db.revhx@ @//depot/test_one.txt@ 1 0 0 1 1443234891 1443234891 122D46B94B8F4A45C294ACEFB0157C82 197 0 0 @//depot/test_one.txt@ @1.1@ 0 
+@pv@ 0 @db.revcx@ 1 @//depot/test_one.txt@ 1 0 
+@ex@ 1908 1443234891
+@pv@ 1 @db.counters@ @maxCommitChange@ @1@ 
+@ex@ 1908 1443234891
+@pv@ 2 @db.have@ @//test_ws/test_one.txt@ @//depot/test_one.txt@ 1 0 
+@dv@ 2 @db.locks@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 1 1 
+@dv@ 10 @db.working@ @//test_ws/test_one.txt@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 1 0 0 0 1 1443234891 1 122D46B94B8F4A45C294ACEFB0157C82 197 0 0 0 @@ 0 
+@ex@ 1908 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1910 1443234891
+@rv@ 1 @db.counters@ @change@ @2@ 
+@ex@ 1910 1443234891
+@pv@ 0 @db.integed@ @//depot/test_two.txt@ @//depot/test_one.txt@ 0 1 0 1 2 2 
+@pv@ 0 @db.integed@ @//depot/test_one.txt@ @//depot/test_two.txt@ 0 1 0 1 3 2 
+@pv@ 9 @db.rev@ @//depot/test_two.txt@ 1 0 3 2 1443234891 1443234891 122D46B94B8F4A45C294ACEFB0157C82 197 0 1 @//depot/test_one.txt@ @1.1@ 0 
+@pv@ 9 @db.revhx@ @//depot/test_two.txt@ 1 0 3 2 1443234891 1443234891 122D46B94B8F4A45C294ACEFB0157C82 197 0 1 @//depot/test_one.txt@ @1.1@ 0 
+@pv@ 0 @db.revcx@ 2 @//depot/test_two.txt@ 1 3 
+@pv@ 0 @db.archmap@ @//depot/test_two*@ @//depot/test_one*@ 
+@pv@ 0 @db.desc@ 2 @Populate test_ws/test_one.txt test_ws/test_two.txt.
+@ 
+@pv@ 2 @db.change@ 2 2 @test_ws@ @smoon@ 1443234891 1 @Populate test_ws/test_one.txt t@ @//depot/*@ 
+@ex@ 1910 1443234891
+@rv@ 1 @db.counters@ @maxCommitChange@ @2@ 
+@ex@ 1910 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1912 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1914 1443234891
+@dv@ 2 @db.have@ @//test_ws/test_one.txt@ @//depot/test_one.txt@ 1 0 
+@ex@ 1914 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1916 1443234891
+@dv@ 1 @db.view@ @test_ws@ 0 0 @//test_ws/...@ @//depot/...@ 
+@dv@ 6 @db.domain@ @test_ws@ 99 @SMOON-01@ @/Users/stephen.moon/p4/smoon/scripts/py_progs/p4_unit/p4test_dir/test_ws@ @@ @@ @smoon@ 1443234891 1443234891 0 @Client test_ws created by smoon
+@ @@ @@ 0 
+@ex@ 1916 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1918 1443234891
+@dv@ 7 @db.user@ @smoon@ @smoon@@smoon@ @@ 1443234891 1443234891 @smoon@ @@ 0 @@ 0 0 0 0 0 0 
+@ex@ 1918 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1920 1443234891
+@pv@ 7 @db.user@ @smoon@ @smoon@@test_ws@ @@ 1443234891 1443234891 @smoon@ @@ 0 @@ 0 0 0 0 0 0 
+@ex@ 1920 1443234891
+@dl@ @//depot/test_one.txt@ @1.1@ 0 @obliterate@ @//...@ 
+@dv@ 0 @db.integed@ @//depot/test_one.txt@ @//depot/test_two.txt@ 0 1 0 1 3 2 
+@dv@ 0 @db.integed@ @//depot/test_two.txt@ @//depot/test_one.txt@ 0 1 0 1 2 2 
+@dv@ 9 @db.rev@ @//depot/test_one.txt@ 1 0 0 1 1443234891 1443234891 122D46B94B8F4A45C294ACEFB0157C82 197 0 0 @//depot/test_one.txt@ @1.1@ 0 
+@dv@ 0 @db.revcx@ 1 @//depot/test_one.txt@ 1 0 
+@dv@ 9 @db.revhx@ @//depot/test_one.txt@ 1 0 0 1 1443234891 1443234891 122D46B94B8F4A45C294ACEFB0157C82 197 0 0 @//depot/test_one.txt@ @1.1@ 0 
+@dv@ 9 @db.rev@ @//depot/test_two.txt@ 1 0 3 2 1443234891 1443234891 122D46B94B8F4A45C294ACEFB0157C82 197 0 1 @//depot/test_one.txt@ @1.1@ 0 
+@dv@ 0 @db.revcx@ 2 @//depot/test_two.txt@ 1 3 
+@dv@ 9 @db.revhx@ @//depot/test_two.txt@ 1 0 3 2 1443234891 1443234891 122D46B94B8F4A45C294ACEFB0157C82 197 0 1 @//depot/test_one.txt@ @1.1@ 0 
+@ex@ 1920 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1922 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1924 1443234891
+@rv@ 7 @db.user@ @smoon@ @smoon@@smoon@ @@ 1443234891 1443234891 @smoon@ @@ 0 @@ 0 0 0 0 0 0 
+@ex@ 1924 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1926 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1928 1443234891
+@pv@ 1 @db.view@ @test_ws@ 0 0 @//test_ws/...@ @//depot/...@ 
+@ex@ 1928 1443234891
+@pv@ 6 @db.domain@ @test_ws@ 99 @SMOON-01@ @/Users/stephen.moon/p4/smoon/scripts/py_progs/p4_unit/p4test_dir/test_ws@ @@ @@ @smoon@ 1443234891 1443234891 0 @Client test_ws created by smoon
+@ @@ @@ 0 
+@ex@ 1928 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1930 1443234891
+@pv@ 10 @db.working@ @//test_ws/test_one.txt@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 1 0 0 0 0 0 0 00000000000000000000000000000000 -1 0 0 0 @@ 0 
+@pv@ 2 @db.locks@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 0 0 
+@ex@ 1930 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1932 1443234891
+@rv@ 1 @db.counters@ @change@ @3@ 
+@pv@ 0 @db.desc@ 3 @test_one_submitted@ 
+@pv@ 2 @db.change@ 3 3 @test_ws@ @smoon@ 1443234891 0 @test_one_submitted@ @@ 
+@pv@ 2 @db.changex@ 3 3 @test_ws@ @smoon@ 1443234891 0 @test_one_submitted@ @@ 
+@rv@ 10 @db.working@ @//test_ws/test_one.txt@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 1 0 0 0 3 0 0 00000000000000000000000000000000 -1 0 0 0 @@ 0 
+@rv@ 2 @db.locks@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 0 3 
+@ex@ 1932 1443234891
+@rv@ 10 @db.working@ @//test_ws/test_one.txt@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 1 0 0 0 3 0 1 00000000000000000000000000000000 -1 0 0 0 @@ 0 
+@rv@ 2 @db.locks@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 1 3 
+@ex@ 1932 1443234891
+@rv@ 10 @db.working@ @//test_ws/test_one.txt@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 1 0 0 0 3 1443234891 1 122D46B94B8F4A45C294ACEFB0157C82 197 0 0 0 @@ 0 
+@rv@ 2 @db.locks@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 1 3 
+@ex@ 1932 1443234891
+@dv@ 2 @db.changex@ 3 3 @test_ws@ @smoon@ 1443234891 1 @test_one_submitted@ @//depot/*@ 
+@rv@ 2 @db.change@ 3 3 @test_ws@ @smoon@ 1443234891 1 @test_one_submitted@ @//depot/*@ 
+@pv@ 9 @db.rev@ @//depot/test_one.txt@ 1 0 0 3 1443234891 1443234891 122D46B94B8F4A45C294ACEFB0157C82 197 0 0 @//depot/test_one.txt@ @1.3@ 0 
+@pv@ 9 @db.revhx@ @//depot/test_one.txt@ 1 0 0 3 1443234891 1443234891 122D46B94B8F4A45C294ACEFB0157C82 197 0 0 @//depot/test_one.txt@ @1.3@ 0 
+@pv@ 0 @db.revcx@ 3 @//depot/test_one.txt@ 1 0 
+@ex@ 1932 1443234891
+@rv@ 1 @db.counters@ @maxCommitChange@ @3@ 
+@ex@ 1932 1443234891
+@pv@ 2 @db.have@ @//test_ws/test_one.txt@ @//depot/test_one.txt@ 1 0 
+@dv@ 2 @db.locks@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 1 3 
+@dv@ 10 @db.working@ @//test_ws/test_one.txt@ @//depot/test_one.txt@ @test_ws@ @smoon@ 0 1 0 0 0 3 1443234891 1 122D46B94B8F4A45C294ACEFB0157C82 197 0 0 0 @@ 0 
+@ex@ 1932 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1934 1443234891
+@pv@ 1 @db.resolve@ @//test_ws/test_two.txt@ @//depot/test_one.txt@ 0 1 0 0 2 2 @//depot/test_one.txt@ 0 
+@pv@ 10 @db.working@ @//test_ws/test_two.txt@ @//depot/test_two.txt@ @test_ws@ @smoon@ 0 1 0 0 3 0 0 0 122D46B94B8F4A45C294ACEFB0157C82 -1 0 1 0 @@ 0 
+@pv@ 2 @db.locks@ @//depot/test_two.txt@ @test_ws@ @smoon@ 3 0 0 
+@ex@ 1934 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1936 1443234891
+@rv@ 1 @db.counters@ @change@ @4@ 
+@pv@ 0 @db.desc@ 4 @test_one_copied@ 
+@pv@ 2 @db.change@ 4 4 @test_ws@ @smoon@ 1443234891 0 @test_one_copied@ @@ 
+@pv@ 2 @db.changex@ 4 4 @test_ws@ @smoon@ 1443234891 0 @test_one_copied@ @@ 
+@rv@ 10 @db.working@ @//test_ws/test_two.txt@ @//depot/test_two.txt@ @test_ws@ @smoon@ 0 1 0 0 3 4 0 0 122D46B94B8F4A45C294ACEFB0157C82 -1 0 1 0 @@ 0 
+@rv@ 2 @db.locks@ @//depot/test_two.txt@ @test_ws@ @smoon@ 3 0 4 
+@ex@ 1936 1443234891
+@rv@ 10 @db.working@ @//test_ws/test_two.txt@ @//depot/test_two.txt@ @test_ws@ @smoon@ 0 1 0 0 3 4 0 1 122D46B94B8F4A45C294ACEFB0157C82 -1 0 1 0 @@ 0 
+@rv@ 2 @db.locks@ @//depot/test_two.txt@ @test_ws@ @smoon@ 3 1 4 
+@ex@ 1936 1443234891
+@pv@ 0 @db.integed@ @//depot/test_two.txt@ @//depot/test_one.txt@ 0 1 0 1 2 4 
+@pv@ 0 @db.integed@ @//depot/test_one.txt@ @//depot/test_two.txt@ 0 1 0 1 3 4 
+@dv@ 2 @db.changex@ 4 4 @test_ws@ @smoon@ 1443234891 1 @test_one_copied@ @//depot/*@ 
+@rv@ 2 @db.change@ 4 4 @test_ws@ @smoon@ 1443234891 1 @test_one_copied@ @//depot/*@ 
+@pv@ 9 @db.rev@ @//depot/test_two.txt@ 1 0 3 4 1443234891 1443234891 122D46B94B8F4A45C294ACEFB0157C82 197 0 1 @//depot/test_one.txt@ @1.3@ 0 
+@pv@ 9 @db.revhx@ @//depot/test_two.txt@ 1 0 3 4 1443234891 1443234891 122D46B94B8F4A45C294ACEFB0157C82 197 0 1 @//depot/test_one.txt@ @1.3@ 0 
+@pv@ 0 @db.revcx@ 4 @//depot/test_two.txt@ 1 3 
+@rv@ 0 @db.archmap@ @//depot/test_two*@ @//depot/test_one*@ 
+@ex@ 1936 1443234891
+@rv@ 1 @db.counters@ @maxCommitChange@ @4@ 
+@ex@ 1936 1443234891
+@pv@ 2 @db.have@ @//test_ws/test_two.txt@ @//depot/test_two.txt@ 1 0 
+@dv@ 1 @db.resolve@ @//test_ws/test_two.txt@ @//depot/test_one.txt@ 0 1 0 0 2 2 @//depot/test_one.txt@ 0 
+@dv@ 2 @db.locks@ @//depot/test_two.txt@ @test_ws@ @smoon@ 3 1 4 
+@dv@ 10 @db.working@ @//test_ws/test_two.txt@ @//depot/test_two.txt@ @test_ws@ @smoon@ 0 1 0 0 3 4 0 1 122D46B94B8F4A45C294ACEFB0157C82 -1 0 1 0 @@ 0 
+@ex@ 1936 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1938 1443234891
+@pv@ 10 @db.working@ @//test_ws/test_one.txt@ @//depot/test_one.txt@ @test_ws@ @smoon@ 1 1 0 0 1 0 0 0 00000000000000000000000000000000 -1 0 0 0 @@ 0 
+@pv@ 2 @db.locks@ @//depot/test_one.txt@ @test_ws@ @smoon@ 1 0 0 
+@pv@ 10 @db.working@ @//test_ws/test_two.txt@ @//depot/test_two.txt@ @test_ws@ @smoon@ 1 1 0 0 1 0 0 0 00000000000000000000000000000000 -1 0 0 0 @@ 0 
+@pv@ 2 @db.locks@ @//depot/test_two.txt@ @test_ws@ @smoon@ 1 0 0 
+@ex@ 1938 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1940 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1942 1443234891
+@dv@ 2 @db.locks@ @//depot/test_one.txt@ @test_ws@ @smoon@ 1 0 0 
+@dv@ 10 @db.working@ @//test_ws/test_one.txt@ @//depot/test_one.txt@ @test_ws@ @smoon@ 1 1 0 0 1 0 0 0 00000000000000000000000000000000 -1 0 0 0 @@ 0 
+@dv@ 2 @db.locks@ @//depot/test_two.txt@ @test_ws@ @smoon@ 1 0 0 
+@dv@ 10 @db.working@ @//test_ws/test_two.txt@ @//depot/test_two.txt@ @test_ws@ @smoon@ 1 1 0 0 1 0 0 0 00000000000000000000000000000000 -1 0 0 0 @@ 0 
+@ex@ 1942 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1944 1443234891
+@dv@ 2 @db.have@ @//test_ws/test_one.txt@ @//depot/test_one.txt@ 1 0 
+@dv@ 2 @db.have@ @//test_ws/test_two.txt@ @//depot/test_two.txt@ 1 0 
+@ex@ 1944 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1946 1443234891
+@dv@ 1 @db.view@ @test_ws@ 0 0 @//test_ws/...@ @//depot/...@ 
+@dv@ 6 @db.domain@ @test_ws@ 99 @SMOON-01@ @/Users/stephen.moon/p4/smoon/scripts/py_progs/p4_unit/p4test_dir/test_ws@ @@ @@ @smoon@ 1443234891 1443234891 0 @Client test_ws created by smoon
+@ @@ @@ 0 
+@ex@ 1946 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1948 1443234891
+@dv@ 7 @db.user@ @smoon@ @smoon@@smoon@ @@ 1443234891 1443234891 @smoon@ @@ 0 @@ 0 0 0 0 0 0 
+@ex@ 1948 1443234891
+@nx@ 7 1443234891 @38@ 0 0 0 0 0 @rsh@ @p4root@ @@ @@ @@ 
+@ex@ 1950 1443234891
+@pv@ 7 @db.user@ @smoon@ @smoon@@test_ws@ @@ 1443234891 1443234891 @smoon@ @@ 0 @@ 0 0 0 0 0 0 
+@ex@ 1950 1443234891
+@dl@ @//depot/test_one.txt@ @1.3@ 0 @obliterate@ @//...@ 
+@dv@ 0 @db.integed@ @//depot/test_one.txt@ @//depot/test_two.txt@ 0 1 0 1 3 4 
+@dv@ 0 @db.integed@ @//depot/test_two.txt@ @//depot/test_one.txt@ 0 1 0 1 2 4 
+@dv@ 9 @db.rev@ @//depot/test_one.txt@ 1 0 0 3 1443234891 1443234891 122D46B94B8F4A45C294ACEFB0157C82 197 0 0 @//depot/test_one.txt@ @1.3@ 0 
+@dv@ 0 @db.revcx@ 3 @//depot/test_one.txt@ 1 0 
+@dv@ 9 @db.revhx@ @//depot/test_one.txt@ 1 0 0 3 1443234891 1443234891 122D46B94B8F4A45C294ACEFB0157C82 197 0 0 @//depot/test_one.txt@ @1.3@ 0 
+@dv@ 9 @db.rev@ @//depot/test_two.txt@ 1 0 3 4 1443234891 1443234891 122D46B94B8F4A45C294ACEFB0157C82 197 0 1 @//depot/test_one.txt@ @1.3@ 0 
+@dv@ 0 @db.revcx@ 4 @//depot/test_two.txt@ 1 3 
+@dv@ 9 @db.revhx@ @//depot/test_two.txt@ 1 0 3 4 1443234891 1443234891 122D46B94B8F4A45C294ACEFB0157C82 197 0 1 @//depot/test_one.txt@ @1.3@ 0 
+@ex@ 1950 1443234891

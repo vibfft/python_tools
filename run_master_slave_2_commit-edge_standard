@@ -1,0 +1,108 @@
+#/usr/bin/env perl
+`mkdir COMMIT`;
+
+print "p4d -p 65202 -L COMMIT.log -r /Users/stephen.moon/p4/smoon/scripts/py_progs/COMMIT\n\n";
+system("p4d -p 65202 -L COMMIT.log -r /Users/stephen.moon/p4/smoon/scripts/py_progs/COMMIT &");
+
+sleep 10;
+`p4 -p 65202 -u super_user serverid COMMIT`;
+
+`echo "ServerID: COMMIT
+Type: server
+Name: COMMIT
+Address: 65202
+Services: commit-server
+Description: commit-server
+" | p4 -p 65202 -u super_user server -i`;
+
+`p4 -p 65202 -u super_user server -o COMMIT`;
+
+`echo "User: service_user
+Type: service
+Email: service_user
+Fullname: service_user
+" | p4 -p 65202 -u super_user user -f -i`;
+
+`echo "Group: service_users 
+Timeout: unlimited
+PasswordTimeout: unlimited
+Subgroups: 
+Owners: 
+Users: 
+	service_user
+" | p4 -p 65202 -u super_user group -i`;
+
+`echo "Protections:
+	write user * * //...
+	super user super_user * //...
+	super user service_user * //...
+" | p4 -p 65202 -u super_user protect -i`;
+
+`p4 -p 65202 -u super_user configure set "COMMIT#monitor=2"`;
+
+`p4 -p 65202 -u super_user configure set "COMMIT#server=3"`;
+
+`p4 -p 65202 -u super_user configure set "COMMIT#P4LOG=COMMIT.log"`;
+
+`p4 -p 65202 -u super_user configure set "COMMIT#serviceUser=service_user"`;
+
+`p4 -p 65202 -u super_user configure set "COMMIT#db.peeking=2"`;
+
+`echo "ServerID: EDGE_1
+Type: server
+Name: EDGE_1
+Address: 65203
+Services: edge-server
+Description: edge-server
+" | p4 -p 65202 -u super_user server -i`;
+
+`p4 -p 65202 -u super_user server -o EDGE_1`;
+
+`p4 -p 65202 -u super_user configure set "EDGE_1#P4TARGET=localhost:65202"`;
+
+`p4 -p 65202 -u super_user configure set "EDGE_1#rpl=4"`;
+
+`p4 -p 65202 -u super_user configure set "EDGE_1#time=1"`;
+
+`p4 -p 65202 -u super_user configure set "EDGE_1#lbr=3"`;
+
+`p4 -p 65202 -u super_user configure set "EDGE_1#P4LOG=EDGE_1.log"`;
+
+`p4 -p 65202 -u super_user configure set "EDGE_1#startup.1=pull -i 1"`;
+
+`p4 -p 65202 -u super_user configure set "EDGE_1#startup.2=pull -u -i 1"`;
+
+`p4 -p 65202 -u super_user configure set "EDGE_1#startup.3=pull -u -i 1"`;
+
+`p4 -p 65202 -u super_user configure set "EDGE_1#db.replication=readonly"`;
+
+`p4 -p 65202 -u super_user configure set "EDGE_1#lbr.replication=readonly"`;
+
+`p4 -p 65202 -u super_user configure set "EDGE_1#serviceUser=service_user"`;
+
+`p4 -p 65202 -u super_user configure set "EDGE_1#monitor=2"`;
+
+`p4 -p 65202 -u super_user configure set "EDGE_1#server=3"`;
+
+`p4 -p 65202 -u super_user configure set "EDGE_1#db.peeking=2"`;
+
+`mkdir EDGE_1`;
+
+`p4 -p 65202 -u super_user admin checkpoint`;
+
+`p4 -p 65202 -u super_user counter journal`;
+
+print "p4d -r /Users/stephen.moon/p4/smoon/scripts/py_progs/EDGE_1 -jr /Users/stephen.moon/p4/smoon/scripts/py_progs/COMMIT/checkpoint.1\n\n";
+system("p4d -r /Users/stephen.moon/p4/smoon/scripts/py_progs/EDGE_1 -jr /Users/stephen.moon/p4/smoon/scripts/py_progs/COMMIT/checkpoint.1 &");
+
+sleep 10;
+print "p4d -p 65203 -L EDGE_1.log -r EDGE_1\n\n";
+system("p4d -p 65203 -L EDGE_1.log -r EDGE_1 &");
+
+sleep 10;
+`p4 -p 65203 -u super_user serverid EDGE_1`;
+
+`p4 -p 65203 -u super_user admin restart`;
+
+# PID: 22078, SERVER NAME: commit-server_0 PORT: 65202
+# PID: 22185, SERVER NAME: edge-server_1 PORT: 65203

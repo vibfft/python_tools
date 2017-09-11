@@ -1,0 +1,118 @@
+@pv@ 1 @db.counters@ @upgrade@ @1@ 
+@ex@ 22078 1430518517
+@rv@ 1 @db.counters@ @upgrade@ @2@ 
+@ex@ 22078 1430518517
+@rv@ 1 @db.counters@ @upgrade@ @3@ 
+@ex@ 22078 1430518517
+@rv@ 1 @db.counters@ @upgrade@ @4@ 
+@ex@ 22078 1430518517
+@rv@ 1 @db.counters@ @upgrade@ @5@ 
+@pv@ 1 @db.depot@ @depot@ 0 @@ @depot/...@ 
+@pv@ 6 @db.domain@ @depot@ 100 @@ @@ @@ @@ @@ 1430518517 1430518517 0 @Default depot@ @@ @@ 0 
+@ex@ 22078 1430518517
+@rv@ 1 @db.counters@ @upgrade@ @6@ 
+@ex@ 22078 1430518517
+@rv@ 1 @db.counters@ @upgrade@ @7@ 
+@ex@ 22078 1430518517
+@rv@ 1 @db.counters@ @upgrade@ @8@ 
+@ex@ 22078 1430518517
+@rv@ 1 @db.counters@ @upgrade@ @9@ 
+@rv@ 1 @db.counters@ @upgrade@ @10@ 
+@ex@ 22078 1430518517
+@rv@ 1 @db.counters@ @upgrade@ @11@ 
+@rv@ 1 @db.counters@ @upgrade@ @12@ 
+@ex@ 22078 1430518517
+@rv@ 1 @db.counters@ @upgrade@ @13@ 
+@rv@ 1 @db.counters@ @upgrade@ @14@ 
+@rv@ 1 @db.counters@ @upgrade@ @15@ 
+@ex@ 22078 1430518517
+@rv@ 1 @db.counters@ @upgrade@ @16@ 
+@ex@ 22078 1430518517
+@rv@ 1 @db.counters@ @upgrade@ @17@ 
+@rv@ 1 @db.counters@ @upgrade@ @18@ 
+@ex@ 22078 1430518517
+@rv@ 1 @db.counters@ @upgrade@ @19@ 
+@ex@ 22078 1430518517
+@rv@ 1 @db.counters@ @upgrade@ @20@ 
+@rv@ 1 @db.counters@ @upgrade@ @21@ 
+@rv@ 1 @db.counters@ @upgrade@ @22@ 
+@rv@ 1 @db.counters@ @upgrade@ @23@ 
+@ex@ 22078 1430518517
+@nx@ 7 1430518517 @38@ 0 0 0 0 0 @65202@ @/Users/stephen.moon/p4/smoon/scripts/py_progs/COMMIT@ @@ @@ @@ 
+@ex@ 22078 1430518517
+@pv@ 7 @db.user@ @super_user@ @super_user@@mac_laptop@ @@ 1430518519 1430518519 @super_user@ @@ 0 @@ 0 0 0 0 0 0 
+@ex@ 22091 1430518519
+@pv@ 1 @db.server@ @COMMIT@ 0 @COMMIT@ @65202@ 12035 @commit-server
+@ @@ 
+@ex@ 22093 1430518519
+@pv@ 7 @db.user@ @service_user@ @service_user@ @@ 1430518519 1430518519 @service_user@ @@ 2 @@ 0 1 0 0 0 0 
+@ex@ 22097 1430518519
+@pv@ 8 @db.group@ @service_user@ @service_users@ 1 0 0 0 -1 -1 
+@ex@ 22099 1430518519
+@pv@ 4 @db.protect@ 0 0 @*@ @*@ 31 0 @//...@ 
+@pv@ 4 @db.protect@ 1 0 @super_user@ @*@ 255 0 @//...@ 
+@pv@ 4 @db.protect@ 2 0 @service_user@ @*@ 255 0 @//...@ 
+@ex@ 22101 1430518519
+@pv@ 1 @db.config@ @COMMIT@ @monitor@ @2@ 
+@pv@ 1 @db.config@ @COMMIT@ @configurationVersion@ @1@ 
+@ex@ 22103 1430518519
+@pv@ 1 @db.config@ @COMMIT@ @server@ @3@ 
+@rv@ 1 @db.config@ @COMMIT@ @configurationVersion@ @2@ 
+@ex@ 22105 1430518519
+@pv@ 1 @db.config@ @COMMIT@ @P4LOG@ @COMMIT.log@ 
+@rv@ 1 @db.config@ @COMMIT@ @configurationVersion@ @3@ 
+@ex@ 22107 1430518519
+@pv@ 1 @db.config@ @COMMIT@ @serviceUser@ @service_user@ 
+@rv@ 1 @db.config@ @COMMIT@ @configurationVersion@ @4@ 
+@ex@ 22109 1430518519
+@pv@ 1 @db.config@ @COMMIT@ @db.peeking@ @2@ 
+@rv@ 1 @db.config@ @COMMIT@ @configurationVersion@ @5@ 
+@ex@ 22111 1430518519
+@pv@ 1 @db.server@ @EDGE_1@ 0 @EDGE_1@ @65203@ 6637 @edge-server
+@ @@ 
+@ex@ 22113 1430518519
+@pv@ 1 @db.config@ @EDGE_1@ @P4TARGET@ @localhost:65202@ 
+@pv@ 1 @db.config@ @EDGE_1@ @configurationVersion@ @1@ 
+@ex@ 22124 1430518521
+@pv@ 1 @db.config@ @EDGE_1@ @rpl@ @4@ 
+@rv@ 1 @db.config@ @EDGE_1@ @configurationVersion@ @2@ 
+@ex@ 22126 1430518521
+@pv@ 1 @db.config@ @EDGE_1@ @time@ @1@ 
+@rv@ 1 @db.config@ @EDGE_1@ @configurationVersion@ @3@ 
+@ex@ 22128 1430518521
+@pv@ 1 @db.config@ @EDGE_1@ @lbr@ @3@ 
+@rv@ 1 @db.config@ @EDGE_1@ @configurationVersion@ @4@ 
+@ex@ 22130 1430518521
+@pv@ 1 @db.config@ @EDGE_1@ @P4LOG@ @EDGE_1.log@ 
+@rv@ 1 @db.config@ @EDGE_1@ @configurationVersion@ @5@ 
+@ex@ 22132 1430518521
+@pv@ 1 @db.config@ @EDGE_1@ @startup.1@ @pull -i 1@ 
+@rv@ 1 @db.config@ @EDGE_1@ @configurationVersion@ @6@ 
+@ex@ 22134 1430518521
+@pv@ 1 @db.config@ @EDGE_1@ @startup.2@ @pull -u -i 1@ 
+@rv@ 1 @db.config@ @EDGE_1@ @configurationVersion@ @7@ 
+@ex@ 22136 1430518521
+@pv@ 1 @db.config@ @EDGE_1@ @startup.3@ @pull -u -i 1@ 
+@rv@ 1 @db.config@ @EDGE_1@ @configurationVersion@ @8@ 
+@ex@ 22138 1430518521
+@pv@ 1 @db.config@ @EDGE_1@ @db.replication@ @readonly@ 
+@rv@ 1 @db.config@ @EDGE_1@ @configurationVersion@ @9@ 
+@ex@ 22140 1430518521
+@pv@ 1 @db.config@ @EDGE_1@ @lbr.replication@ @readonly@ 
+@rv@ 1 @db.config@ @EDGE_1@ @configurationVersion@ @10@ 
+@ex@ 22142 1430518521
+@pv@ 1 @db.config@ @EDGE_1@ @serviceUser@ @service_user@ 
+@rv@ 1 @db.config@ @EDGE_1@ @configurationVersion@ @11@ 
+@ex@ 22144 1430518521
+@pv@ 1 @db.config@ @EDGE_1@ @monitor@ @2@ 
+@rv@ 1 @db.config@ @EDGE_1@ @configurationVersion@ @12@ 
+@ex@ 22146 1430518521
+@pv@ 1 @db.config@ @EDGE_1@ @server@ @3@ 
+@rv@ 1 @db.config@ @EDGE_1@ @configurationVersion@ @13@ 
+@ex@ 22148 1430518521
+@pv@ 1 @db.config@ @EDGE_1@ @db.peeking@ @2@ 
+@rv@ 1 @db.config@ @EDGE_1@ @configurationVersion@ @14@ 
+@ex@ 22150 1430518521
+@pv@ 1 @db.counters@ @journal@ @1@ 
+@nx@ 3 1430518521 @38@ 0 0 0 0 0 @@ @@ @@ @@ @@ 
+@ex@ 22152 1430518521

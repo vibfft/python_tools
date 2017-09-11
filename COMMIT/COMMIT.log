@@ -1,0 +1,121 @@
+Perforce server info:
+	Perforce db files in '/Users/stephen.moon/p4/smoon/scripts/py_progs/COMMIT' will be created if missing...
+Perforce server info:
+	Perforce Server starting 2015/05/01 15:15:17 pid 22078 P4D/DARWIN90X86_64/2014.2/1045032.
+Perforce server info:
+	2015/05/01 15:15:19 pid 22091 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-serverid COMMIT'
+Perforce server info:
+	2015/05/01 15:15:19 pid 22093 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-server -i'
+Perforce server info:
+	2015/05/01 15:15:19 pid 22095 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-server -o COMMIT'
+Perforce server info:
+	2015/05/01 15:15:19 pid 22097 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-user -f -i'
+Perforce server info:
+	2015/05/01 15:15:19 pid 22099 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-group -i'
+Perforce server info:
+	2015/05/01 15:15:19 pid 22101 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-protect -i'
+Perforce server info:
+	2015/05/01 15:15:19 pid 22103 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-configure set COMMIT#monitor=2'
+Perforce server info:
+	2015/05/01 15:15:19 pid 22105 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-configure set COMMIT#server=3'
+Perforce server info:
+	2015/05/01 15:15:19 pid 22107 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-configure set COMMIT#P4LOG=COMMIT.log'
+Perforce server info:
+	2015/05/01 15:15:19 pid 22107 completed .003s 0+0us 0+0io 7+7net 1638400k 0pf 
+Perforce server info:
+	2015/05/01 15:15:19 pid 22109 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-configure set COMMIT#serviceUser=service_user'
+Perforce server info:
+	2015/05/01 15:15:19 pid 22109 completed .003s 0+0us 0+0io 7+7net 1675264k 0pf 
+Perforce server info:
+	2015/05/01 15:15:19 pid 22111 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-configure set COMMIT#db.peeking=2'
+Perforce server info:
+	2015/05/01 15:15:19 pid 22111 completed .003s 0+0us 0+0io 7+7net 1613824k 0pf 
+Perforce server info:
+	2015/05/01 15:15:19 pid 22113 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-server -i'
+Perforce server info:
+	2015/05/01 15:15:19 pid 22113 completed .004s 0+0us 0+0io 17+17net 1724416k 0pf 
+Perforce server info:
+	2015/05/01 15:15:19 pid 22115 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-server -o EDGE_1'
+Perforce server info:
+	2015/05/01 15:15:19 pid 22115 completed .003s 0+0us 0+0io 10+10net 1703936k 0pf 
+Perforce server info:
+	2015/05/01 15:15:21 pid 22124 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-configure set EDGE_1#P4TARGET=localhost:65202'
+Perforce server info:
+	2015/05/01 15:15:21 pid 22124 completed .003s 0+0us 0+0io 7+7net 1609728k 0pf 
+Perforce server info:
+	2015/05/01 15:15:21 pid 22126 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-configure set EDGE_1#rpl=4'
+Perforce server info:
+	2015/05/01 15:15:21 pid 22126 completed .003s 0+0us 0+0io 7+7net 1601536k 0pf 
+Perforce server info:
+	2015/05/01 15:15:21 pid 22128 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-configure set EDGE_1#time=1'
+Perforce server info:
+	2015/05/01 15:15:21 pid 22128 completed .003s 0+0us 0+0io 7+7net 1634304k 0pf 
+Perforce server info:
+	2015/05/01 15:15:21 pid 22130 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-configure set EDGE_1#lbr=3'
+Perforce server info:
+	2015/05/01 15:15:21 pid 22130 completed .004s 0+0us 0+0io 7+7net 1630208k 0pf 
+Perforce server info:
+	2015/05/01 15:15:21 pid 22132 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-configure set EDGE_1#P4LOG=EDGE_1.log'
+Perforce server info:
+	2015/05/01 15:15:21 pid 22132 completed .003s 0+0us 0+0io 7+7net 1630208k 0pf 
+Perforce server info:
+	2015/05/01 15:15:21 pid 22134 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-configure set EDGE_1#startup.1=pull -i 1'
+Perforce server info:
+	2015/05/01 15:15:21 pid 22134 completed .003s 0+0us 0+1io 7+7net 1593344k 0pf 
+Perforce server info:
+	2015/05/01 15:15:21 pid 22136 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-configure set EDGE_1#startup.2=pull -u -i 1'
+Perforce server info:
+	2015/05/01 15:15:21 pid 22136 completed .003s 0+0us 0+0io 7+7net 1622016k 0pf 
+Perforce server info:
+	2015/05/01 15:15:21 pid 22138 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-configure set EDGE_1#startup.3=pull -u -i 1'
+Perforce server info:
+	2015/05/01 15:15:21 pid 22138 completed .003s 0+0us 0+0io 7+7net 1642496k 0pf 
+Perforce server info:
+	2015/05/01 15:15:21 pid 22140 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-configure set EDGE_1#db.replication=readonly'
+Perforce server info:
+	2015/05/01 15:15:21 pid 22140 completed .003s 0+0us 0+0io 7+7net 1572864k 0pf 
+Perforce server info:
+	2015/05/01 15:15:21 pid 22142 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-configure set EDGE_1#lbr.replication=readonly'
+Perforce server info:
+	2015/05/01 15:15:21 pid 22142 completed .003s 0+0us 0+0io 7+7net 1675264k 0pf 
+Perforce server info:
+	2015/05/01 15:15:21 pid 22144 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-configure set EDGE_1#serviceUser=service_user'
+Perforce server info:
+	2015/05/01 15:15:21 pid 22144 completed .003s 0+0us 0+1io 7+7net 1634304k 0pf 
+Perforce server info:
+	2015/05/01 15:15:21 pid 22146 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-configure set EDGE_1#monitor=2'
+Perforce server info:
+	2015/05/01 15:15:21 pid 22146 completed .003s 0+0us 0+0io 7+7net 1662976k 0pf 
+Perforce server info:
+	2015/05/01 15:15:21 pid 22148 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-configure set EDGE_1#server=3'
+Perforce server info:
+	2015/05/01 15:15:21 pid 22148 completed .003s 0+0us 0+0io 7+7net 1617920k 0pf 
+Perforce server info:
+	2015/05/01 15:15:21 pid 22150 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-configure set EDGE_1#db.peeking=2'
+Perforce server info:
+	2015/05/01 15:15:21 pid 22150 completed .003s 0+0us 0+0io 7+7net 1601536k 0pf 
+Perforce server info:
+	2015/05/01 15:15:21 pid 22152 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-admin checkpoint'
+Perforce server info:
+	2015/05/01 15:15:21 pid 22152 completed .068s 1+6us 0+4io 7+7net 2777088k 0pf 
+Perforce server info:
+	2015/05/01 15:15:26 pid 22168 super_user@mac_laptop 127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-counter journal'
+Perforce server info:
+	2015/05/01 15:15:26 pid 22168 completed .005s 0+0us 0+0io 7+7net 1499136k 0pf 
+Perforce server info:
+	2015/05/01 15:15:40 pid 22206 service_user@unknown 127.0.0.1 [p4d/2014.2/DARWIN90X86_64/1045032] 'rmt-Journal'
+Perforce server info:
+	2015/05/01 15:15:40 pid 22206 completed .006s 0+0us 0+0io 0+0net 1548288k 0pf 
+Perforce server info:
+	2015/05/01 15:16:19 pid 22276 super_user@test 127.0.0.1/127.0.0.1 [p4/2014.2/MACOSX105X86_64/1045032] 'user-depot -i'
+Perforce server info:
+	2015/05/01 15:16:19 pid 22276 completed .005s 0+0us 0+0io 17+17net 1708032k 0pf 
+Perforce server error:
+	Date 2015/05/01 15:16:20:
+	Pid 22285
+	Connection from 127.0.0.1:65276 broken.
+	Partner exited unexpectedly.
+Perforce server info:
+	Process 22206 terminated normally during server shutdown.
+Perforce server info:
+	Perforce Server shutdown 2015/05/01 18:35:46 pid 22078.

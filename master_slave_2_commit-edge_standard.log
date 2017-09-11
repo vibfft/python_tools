@@ -1,0 +1,84 @@
+05-01 15:15 p4debug      DEBUG    ['p4d', '-V']
+05-01 15:15 p4debug      DEBUG     PLATFORM: DARWIN90X86_64 CODELINE: 2014.2 RELEASE: 1045032
+05-01 15:15 p4debug      DEBUG    2014 is an integer
+05-01 15:15 p4debug      DEBUG    2 is an integer
+05-01 15:15 p4debug      DEBUG    SERVER_CMD: ['p4d', '-p', '65202', '-L', 'COMMIT.log', '-r', '/Users/stephen.moon/p4/smoon/scripts/py_progs/COMMIT']
+05-01 15:15 p4debug      DEBUG    P4D_PID: 22078
+05-01 15:15 p4debug      DEBUG    SERVER_ID: ['p4', '-p', '65202', '-u', 'super_user', 'serverid', 'COMMIT']
+05-01 15:15 p4debug      DEBUG    Server ID: COMMIT
+
+05-01 15:15 p4debug      DEBUG    SERVER SPEC CMD: ['p4', '-p', '65202', '-u', 'super_user', 'server', '-i']
+05-01 15:15 p4debug      DEBUG    SERVER SPEC: Server COMMIT saved.
+
+05-01 15:15 p4debug      DEBUG    ServerSpec CMD: ['p4', '-p', '65202', '-u', 'super_user', 'server', '-o', 'COMMIT']
+05-01 15:15 p4debug      DEBUG    SERVER SPEC saved for ServerID: COMMIT
+05-01 15:15 p4debug      DEBUG    SERVER SPEC saved for Services: commit-server
+05-01 15:15 p4debug      DEBUG    USER SPEC CMD: ['p4', '-p', '65202', '-u', 'super_user', 'user', '-f', '-i'] 
+05-01 15:15 p4debug      DEBUG    USER SPEC: User service_user saved.
+ 
+05-01 15:15 p4debug      DEBUG    GROUP SPEC CMD: ['p4', '-p', '65202', '-u', 'super_user', 'group', '-i'] 
+05-01 15:15 p4debug      DEBUG    GROUP SPEC: Group service_users created.
+ 
+05-01 15:15 p4debug      DEBUG    Protect SPEC CMD: ['p4', '-p', '65202', '-u', 'super_user', 'protect', '-i'] 
+05-01 15:15 p4debug      DEBUG    Protect SPEC: Protections saved.
+ 
+05-01 15:15 p4debug      DEBUG    CONFIGURE CMD: ['p4', '-p', '65202', '-u', 'super_user', 'configure', 'set', 'COMMIT#monitor=2']
+05-01 15:15 p4debug      DEBUG    SETTING: For server 'COMMIT', configuration variable 'monitor' set to '2'
+05-01 15:15 p4debug      DEBUG    CONFIGURE CMD: ['p4', '-p', '65202', '-u', 'super_user', 'configure', 'set', 'COMMIT#server=3']
+05-01 15:15 p4debug      DEBUG    SETTING: For server 'COMMIT', configuration variable 'server' set to '3'
+05-01 15:15 p4debug      DEBUG    CONFIGURE CMD: ['p4', '-p', '65202', '-u', 'super_user', 'configure', 'set', 'COMMIT#P4LOG=COMMIT.log']
+05-01 15:15 p4debug      DEBUG    SETTING: For server 'COMMIT', configuration variable 'P4LOG' set to 'COMMIT.log'
+05-01 15:15 p4debug      DEBUG    CONFIGURE CMD: ['p4', '-p', '65202', '-u', 'super_user', 'configure', 'set', 'COMMIT#serviceUser=service_user']
+05-01 15:15 p4debug      DEBUG    SETTING: For server 'COMMIT', configuration variable 'serviceUser' set to 'service_user'
+05-01 15:15 p4debug      DEBUG    CONFIGURE CMD: ['p4', '-p', '65202', '-u', 'super_user', 'configure', 'set', 'COMMIT#db.peeking=2']
+05-01 15:15 p4debug      DEBUG    SETTING: For server 'COMMIT', configuration variable 'db.peeking' set to '2'
+05-01 15:15 p4debug      DEBUG    SERVER SPEC CMD: ['p4', '-p', '65202', '-u', 'super_user', 'server', '-i']
+05-01 15:15 p4debug      DEBUG    SERVER SPEC: Server EDGE_1 saved.
+
+05-01 15:15 p4debug      DEBUG    ServerSpec CMD: ['p4', '-p', '65202', '-u', 'super_user', 'server', '-o', 'EDGE_1']
+05-01 15:15 p4debug      DEBUG    SERVER SPEC saved for ServerID: EDGE_1
+05-01 15:15 p4debug      DEBUG    SERVER SPEC saved for Services: edge-server
+05-01 15:15 p4debug      DEBUG    CONFIGURE CMD: ['p4', '-p', '65202', '-u', 'super_user', 'configure', 'set', 'EDGE_1#P4TARGET=localhost:65202']
+05-01 15:15 p4debug      DEBUG    SETTING: For server 'EDGE_1', configuration variable 'P4TARGET' set to 'localhost:65202'
+05-01 15:15 p4debug      DEBUG    CONFIGURE CMD: ['p4', '-p', '65202', '-u', 'super_user', 'configure', 'set', 'EDGE_1#rpl=4']
+05-01 15:15 p4debug      DEBUG    SETTING: For server 'EDGE_1', configuration variable 'rpl' set to '4'
+05-01 15:15 p4debug      DEBUG    CONFIGURE CMD: ['p4', '-p', '65202', '-u', 'super_user', 'configure', 'set', 'EDGE_1#time=1']
+05-01 15:15 p4debug      DEBUG    SETTING: For server 'EDGE_1', configuration variable 'time' set to '1'
+05-01 15:15 p4debug      DEBUG    CONFIGURE CMD: ['p4', '-p', '65202', '-u', 'super_user', 'configure', 'set', 'EDGE_1#lbr=3']
+05-01 15:15 p4debug      DEBUG    SETTING: For server 'EDGE_1', configuration variable 'lbr' set to '3'
+05-01 15:15 p4debug      DEBUG    CONFIGURE CMD: ['p4', '-p', '65202', '-u', 'super_user', 'configure', 'set', 'EDGE_1#P4LOG=EDGE_1.log']
+05-01 15:15 p4debug      DEBUG    SETTING: For server 'EDGE_1', configuration variable 'P4LOG' set to 'EDGE_1.log'
+05-01 15:15 p4debug      DEBUG    CONFIGURE CMD: ['p4', '-p', '65202', '-u', 'super_user', 'configure', 'set', 'EDGE_1#startup.1=pull -i 1']
+05-01 15:15 p4debug      DEBUG    SETTING: For server 'EDGE_1', configuration variable 'startup.1' set to 'pull -i 1'
+05-01 15:15 p4debug      DEBUG    CONFIGURE CMD: ['p4', '-p', '65202', '-u', 'super_user', 'configure', 'set', 'EDGE_1#startup.2=pull -u -i 1']
+05-01 15:15 p4debug      DEBUG    SETTING: For server 'EDGE_1', configuration variable 'startup.2' set to 'pull -u -i 1'
+05-01 15:15 p4debug      DEBUG    CONFIGURE CMD: ['p4', '-p', '65202', '-u', 'super_user', 'configure', 'set', 'EDGE_1#startup.3=pull -u -i 1']
+05-01 15:15 p4debug      DEBUG    SETTING: For server 'EDGE_1', configuration variable 'startup.3' set to 'pull -u -i 1'
+05-01 15:15 p4debug      DEBUG    CONFIGURE CMD: ['p4', '-p', '65202', '-u', 'super_user', 'configure', 'set', 'EDGE_1#db.replication=readonly']
+05-01 15:15 p4debug      DEBUG    SETTING: For server 'EDGE_1', configuration variable 'db.replication' set to 'readonly'
+05-01 15:15 p4debug      DEBUG    CONFIGURE CMD: ['p4', '-p', '65202', '-u', 'super_user', 'configure', 'set', 'EDGE_1#lbr.replication=readonly']
+05-01 15:15 p4debug      DEBUG    SETTING: For server 'EDGE_1', configuration variable 'lbr.replication' set to 'readonly'
+05-01 15:15 p4debug      DEBUG    CONFIGURE CMD: ['p4', '-p', '65202', '-u', 'super_user', 'configure', 'set', 'EDGE_1#serviceUser=service_user']
+05-01 15:15 p4debug      DEBUG    SETTING: For server 'EDGE_1', configuration variable 'serviceUser' set to 'service_user'
+05-01 15:15 p4debug      DEBUG    CONFIGURE CMD: ['p4', '-p', '65202', '-u', 'super_user', 'configure', 'set', 'EDGE_1#monitor=2']
+05-01 15:15 p4debug      DEBUG    SETTING: For server 'EDGE_1', configuration variable 'monitor' set to '2'
+05-01 15:15 p4debug      DEBUG    CONFIGURE CMD: ['p4', '-p', '65202', '-u', 'super_user', 'configure', 'set', 'EDGE_1#server=3']
+05-01 15:15 p4debug      DEBUG    SETTING: For server 'EDGE_1', configuration variable 'server' set to '3'
+05-01 15:15 p4debug      DEBUG    CONFIGURE CMD: ['p4', '-p', '65202', '-u', 'super_user', 'configure', 'set', 'EDGE_1#db.peeking=2']
+05-01 15:15 p4debug      DEBUG    SETTING: For server 'EDGE_1', configuration variable 'db.peeking' set to '2'
+05-01 15:15 p4debug      DEBUG    Checkpoint CMD: ['p4', '-p', '65202', '-u', 'super_user', 'admin', 'checkpoint']
+05-01 15:15 p4debug      DEBUG    Checkpoint created
+05-01 15:15 p4debug      DEBUG    Journal Counter CMD: ['p4', '-p', '65202', '-u', 'super_user', 'counter', 'journal'] 
+05-01 15:15 p4debug      DEBUG    Journal Counter: 1
+ 
+05-01 15:15 p4debug      DEBUG    ['p4d', '-r', '/Users/stephen.moon/p4/smoon/scripts/py_progs/EDGE_1', '-jr', '/Users/stephen.moon/p4/smoon/scripts/py_progs/COMMIT/checkpoint.1']
+05-01 15:15 p4debug      DEBUG    Perforce db files in '/Users/stephen.moon/p4/smoon/scripts/py_progs/EDGE_1' will be created if missing...
+Recovering from /Users/stephen.moon/p4/smoon/scripts/py_progs/COMMIT/checkpoint.1...
+
+05-01 15:15 p4debug      DEBUG    SERVER_CMD: ['p4d', '-p', '65203', '-L', 'EDGE_1.log', '-r', 'EDGE_1']
+05-01 15:15 p4debug      DEBUG    P4D_PID: 22185
+05-01 15:15 p4debug      DEBUG    SERVER_ID: ['p4', '-p', '65203', '-u', 'super_user', 'serverid', 'EDGE_1']
+05-01 15:15 p4debug      DEBUG    Server ID: EDGE_1
+
+05-01 15:15 p4debug      DEBUG    RESTART CMD: ['p4', '-p', '65203', '-u', 'super_user', 'admin', 'restart']
+05-01 15:15 p4debug      DEBUG    EDGE_1 at PORT 65203 restarted.

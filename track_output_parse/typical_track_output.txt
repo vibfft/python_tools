@@ -1,0 +1,31 @@
+--- lapse 1.01s
+--- usage 228+32us 20424+40io 0+0net 22320k 0pf
+--- rpc msgs/size in+out 2+63103/0mb+15mb himarks 64835/131068 snd/rcv .575s/.001s
+--- db.user
+---   pages in+out+cached 6+4+3
+---   locks read/write 1/1 rows get+pos+scan put+del 1+0+0 1+0
+--- db.group
+---   pages in+out+cached 7+0+6
+---   locks read/write 1/0 rows get+pos+scan put+del 0+4+7 0+0
+--- db.domain
+---   pages in+out+cached 4+0+3
+---   locks read/write 1/0 rows get+pos+scan put+del 1+0+0 0+0
+--- db.view
+---   pages in+out+cached 2+0+4
+---   locks read/write 1/0 rows get+pos+scan put+del 0+1+2 0+0
+--- db.revdx
+---   pages in+out+cached 199+0+96
+---   locks read/write 1/0 rows get+pos+scan put+del 0+1+7566 0+0
+---   total lock wait+held read/write 0ms+233ms/0ms+0ms
+--- db.revhx
+---   pages in+out+cached 1564+0+96
+---   locks read/write 1/0 rows get+pos+scan put+del 0+1+55593 0+0
+---   total lock wait+held read/write 0ms+233ms/0ms+0ms
+--- db.protect
+---   pages in+out+cached 8+0+7
+---   locks read/write 1/0 rows get+pos+scan put+del 0+1+575 0+0
+--- db.monitor
+---   pages in+out+cached 10+6+2
+---   locks read/write 2/2 rows get+pos+scan put+del 2+0+0 1+1
+---   total lock wait+held read/write 0ms+0ms/0ms+1ms
+---   max lock wait+held read/write 0ms+0ms/0ms+1ms

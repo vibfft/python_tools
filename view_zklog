@@ -1,0 +1,6 @@
+#!/bin/sh
+
+. /etc/zookeeper/conf/environment
+
+LOGFILE=${1:-ZOO_LOG_DIR/log.1}
+java -cp $CLASSPATH org.apache.zookeeper.server.LogFormatter $LOGFILE

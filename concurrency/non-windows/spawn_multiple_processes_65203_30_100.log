@@ -1,0 +1,40 @@
+05-01 15:16 p4debug      DEBUG    User name: super_user
+Client name: test
+Client host: SMOON-01
+Client unknown.
+Current directory: /Users/stephen.moon/p4/smoon/scripts/py_progs/concurrency/non-windows
+Peer address: 127.0.0.1:65272
+Client address: 127.0.0.1
+Server address: localhost:65203
+Server root: EDGE_1
+Server date: 2015/05/01 15:16:20 -0700 PDT
+Server uptime: 00:00:40
+Server version: P4D/DARWIN90X86_64/2014.2/1045032 (2015/04/17)
+ServerID: EDGE_1
+Changelist server: localhost:65202
+Server license: none
+Case Handling: insensitive
+
+05-01 15:16 p4debug      DEBUG    P4ROOT=EDGE_1 (-r)
+P4PORT=65203 (-p)
+P4JOURNAL=journal (default)
+P4NAME=EDGE_1 (serverid)
+P4LOG=EDGE_1.log (-L)
+serviceUser=service_user (configure)
+P4TARGET=localhost:65202 (configure)
+monitor=2 (configure)
+startup.1=pull -i 1 (configure)
+startup.2=pull -u -i 1 (configure)
+startup.3=pull -u -i 1 (configure)
+db.replication=readonly (configure)
+lbr.replication=readonly (configure)
+p4zk.log.file=p4zk.log (default)
+auth.default.method=perforce (default)
+zk.connect.timeout=300 (default)
+lbr: 3 (configure)
+server: 3 (configure)
+rpl: 4 (configure)
+time: 1 (configure)
+db.peeking: 2 (configure)
+serverid=EDGE_1 (serverid)
+
